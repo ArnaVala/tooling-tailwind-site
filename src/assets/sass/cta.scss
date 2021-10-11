@@ -1,0 +1,21 @@
+.cta {
+   @apply bg-light flex px-16 md:px-48 flex-col lg:flex-row lg:px-64 xxl:px-128 py-96 gap-32 justify-center items-center;
+
+  h3 {
+    @apply text-green text-h3;
+
+    span {
+      @apply text-white;
+    }
+  }
+
+  figure {
+    @apply flex-1;
+
+    img {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  }
+}

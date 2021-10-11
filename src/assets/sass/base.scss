@@ -1,0 +1,51 @@
+@import url("https://use.typekit.net/zoc2adx.css");
+
+html {
+  font-family: 'heimat sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100vw;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'heimat-display-20', sans-serif;
+  @apply font-headings font-extrabold text-dark;
+}
+
+
+h5, h6 {
+  font-family: 'heimat-sans', sans-serif;
+  @apply font-bold text-dark;
+}
+
+p {
+  @apply font-body font-regular text-body max-w-480;
+}
+
+section {
+  @apply py-80 gap-y-64 md:py-96 md:gap-y-96 lg:py-128 xl:py-240  lg:gap-y-128;
+}
+
+
+a {
+  @apply inline-block pb-8 relative;
+  text-decoration: none;
+}
+
+a:after {
+  @apply block h-2 bottom-0 w-0 bg-green;
+  content: '';
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+a:hover:after {
+  @apply w-full; 
+}

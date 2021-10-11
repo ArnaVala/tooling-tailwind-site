@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./base.scss";
+@import "./typography.scss";
+
+/* sections */
+@import './hero.scss';
+@import './about.scss';
+@import './cta.scss';
+@import './products.scss';
+@import './footer.scss';
+@import './product-page.scss'

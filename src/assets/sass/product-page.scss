@@ -1,0 +1,43 @@
+.product-hero {
+  @apply mx-auto bg-light px-16 py-48 md:px-48 lg:px-64 xl:p-96 xxl:px-128 xxl:py-160 xxl:text-huge;
+
+  &-title {
+    @apply flex flex-col gap-32 md:gap-48 lg:mt-96;
+
+  }
+
+  &-image {
+    position: absolute;
+    right: 0;
+    padding-left: 32px;
+    bottom: 0;
+
+    img {
+      height: 100%;
+     
+      @apply w-full lg:w-screen-60 xl:w-screen-60 xxl:w-screen-60;
+    }
+  }
+
+  @media screen and (min-width: 960px) and (orientation:portrait) {
+    @apply py-128 px-64;
+
+    &-title {
+      .heading-1 {
+        @apply text-huge;
+      }
+
+      .body-big {
+        @apply text-bodyBig;
+      }
+    }
+
+    &-image {
+      img {
+        @apply w-full;
+      }
+    }
+  }
+ 
+}
+

@@ -1,0 +1,15 @@
+.about {
+  @apply flex flex-col justify-center;
+
+  .about-block {
+    @apply grid grid-cols-1 px-16 md:px-64 lg:px-0 lg:grid-cols-2;
+
+    &__text {
+      @apply px-0 lg:px-64 xl:px-128 h-full flex flex-col justify-center gap-32 py-32;
+
+      h3 {
+        @apply pb-0;
+      }
+    }
+  }
+}

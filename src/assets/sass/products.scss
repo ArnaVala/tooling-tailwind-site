@@ -1,0 +1,52 @@
+.products {
+  @apply xl:max-w-1440 mx-auto flex flex-col justify-center items-center px-16 md:px-48 lg:px-128;
+
+  &-list {
+    @apply flex flex-col gap-32;
+  }
+
+  &-grid {
+    @apply grid gap-32 grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+  }
+  
+
+  .product {
+    figure img {
+      @apply w-full;
+    }
+
+    &-featured {
+    @apply md:col-span-1 lg:col-span-3 grid lg:gap-32 lg:grid-cols-3;
+
+      figure {
+        @apply lg:col-span-2 overflow-hidden;
+      }
+
+      &-info {
+        @apply flex flex-col h-full justify-center lg:col-span-1;
+
+        h4 {
+          @apply pt-16 text-body lg:text-h4;
+        }
+
+        p {
+          @apply font-semibold text-green lg:text-h4;
+        }
+      }
+    }
+
+    &-single {
+      @apply col-span-1;
+
+      &-info {
+        h4 {
+          @apply pt-16 text-body;
+        }
+        p {
+          @apply font-semibold text-green;
+        }
+      }
+
+    }
+  }
+}

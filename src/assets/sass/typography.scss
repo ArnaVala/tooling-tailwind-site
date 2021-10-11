@@ -1,0 +1,45 @@
+.heading-1 {
+  @apply text-lg md:text-xxxl xl:text-huge ;
+
+  span {
+    @apply text-white;
+  }
+
+  @media screen and (min-width: 960) and (orientation: portrait) {
+    @apply text-huge
+  }
+}
+
+.heading-2 {
+  @apply text-lg sm:text-xl 
+}
+
+.heading-3 {
+  @apply text-m xl:text-lg;
+}
+
+.heading-4 {
+  @apply text-s pb-32 pt-32 xl:text-lg;
+}
+
+.overline {
+  @apply font-body font-bold text-green text-h5 uppercase;
+}
+
+.body {
+  @apply font-body font-regular text-body lg:max-w-480 xl:max-w-560;
+}
+
+.body-big {
+  @apply font-body font-regular text-body max-w-480  xl:text-bodyBig xl:max-w-560;
+}
+
+.text-link {
+  @apply text-green border-b-2 font-bold hover:text-dark hover:bg-light;
+}
+
+.section-header {
+  @apply text-center flex flex-col gap-16 lg:gap-48;
+
+
+}
