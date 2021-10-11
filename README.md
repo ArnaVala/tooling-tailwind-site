@@ -2,12 +2,22 @@
 # Module 3 - TOOLING - TAILWIND CSS (with SASS)
 
 [Live Link](https://av-tooling-tailwindcss.netlify.app/)
+<br>
 Two pages: index.html with link to [products page](https://av-tooling-tailwindcss.netlify.app/product.html#)
 
-I made 2 pages with [Tailwind Css](https://tailwindcss.com/).
+## Concept
+I made a site for a furniture company, Concept. The design I used I also made for the UI Fundamentals task, 
+as a single page. <br>
+[Figma file](https://www.figma.com/file/w9SYDVe06gO0JubsaVx48L/UI-fundamentals-Design-example?node-id=0%3A1)
+
+<br>
+
+## Framework - TailwindCSS
+I used [Tailwind Css](https://tailwindcss.com/), a utility-first CSS Framework.
+<br>
+
 [Tailwind Documentation](https://tailwindcss.com/docs)
 <br>
-Tailwind is a utility-first CSS framework.
 I decided to plug it in with SASS, which was a bit of a nightmare. It made my build quite slow, andthe styling was slow to update on the live server. Furthermore in hindsight it is actually  quite unecessary to use SASS when using Tailwind, as for basic sites, you really do not have to write much CSS in stylesheets. 
 <br>
 
@@ -20,7 +30,7 @@ for elements/components that are repeated through the site,
 I also tried using the '@apply' method in the CSS. (see SASS files)
 <br>
 
-#### Using Tailwind with SASS
+### Using Tailwind with SASS
 As I mentioned earlier, I don't find that Tailwind CSS and SASS function well together in plain HTML.
 But having used TailwindCSS and SASS in React I can say it is quite okay.
 - When using SASS you import the custom SCSS files into the tailwind.scss.
