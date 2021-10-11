@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ["src/*.html"],
+    content: ["*.html"],
   },
   darkMode: false,
   // here you can add your own fonts, colors etc.
