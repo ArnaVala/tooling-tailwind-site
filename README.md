@@ -1,7 +1,8 @@
 
 # Module 3 - TOOLING - TAILWIND CSS (with SASS)
 
-[Live Site](https://)
+[Live Link](https://av-tooling-tailwindcss.netlify.app/)
+Two pages: index.html with link to [products page](https://av-tooling-tailwindcss.netlify.app/product.html#)
 
 I made 2 pages with [Tailwind Css](https://tailwindcss.com/).
 [Tailwind Documentation](https://tailwindcss.com/docs)
